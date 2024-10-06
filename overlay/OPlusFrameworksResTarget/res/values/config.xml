@@ -255,9 +255,9 @@
         Z
     </string>
 
-    <!-- Whether the display cutout region of the main built-in display should be forced to
-         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
-         -->
-    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <!-- Default volume panel position in portrait mode
+         0: Left side
+         1: Right side -->
+    <integer name="config_volumePanelPosPortDefault">1</integer>
 
 </resources>
